@@ -7,6 +7,7 @@ key.click('xpath', '//*[@id="hotsearch-content-wrapper"]/li[1]/a/span[2]')
 key.sleep(3)
 key.quit()
 
+
 # 点击登录提交证号密码
 key = Key('Chrome')
 key.oppen('http://www.baidu.com')

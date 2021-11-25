@@ -14,7 +14,6 @@ def oppen_browser(type_):
         driver = webdriver.Chrome()
     return driver
 
-
 class Key:
     # 构造函数
     def __init__(self, type_):
