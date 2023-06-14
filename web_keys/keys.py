@@ -14,10 +14,12 @@ def oppen_browser(type_):
         driver = webdriver.Chrome()
     return driver
 
+
 class Key:
     # 构造函数
     def __init__(self, type_):
         self.driver = oppen_browser(type_)
+        self.driver.set_window_size(2540, 1400)
         self.driver.implicitly_wait(5)
 
     # 访问url
